@@ -1,7 +1,7 @@
 ---
 title: "This is my first Post"
-_build:
-  render: never
+build:
+  render: true
   list: true
 ---
 # Hello, World
