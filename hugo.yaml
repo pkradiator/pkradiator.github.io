@@ -1,7 +1,7 @@
 baseURL: "https://pkradiator.github.io/"
 languageCode: en-us
 title: "Radiator's Thoughts"
-theme: ["papermod"]
+theme: ["PaperMod"]
 
 enableRobotsTXT: true
 buildDrafts: false
