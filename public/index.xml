@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Radiator's Thoughts</title><link>http://localhost:1313/</link><description>Recent content on Radiator's Thoughts</description><image><title>Radiator's Thoughts</title><url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url><link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link></image><generator>Hugo -- 0.147.0</generator><language>en-us</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml"/><item><title>This is my first Post</title><link>http://localhost:1313/posts/my-first-post/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/posts/my-first-post/</guid><description>&lt;h1 id="hello-world">Hello, World&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Radiator's Thoughts</title><link>https://pkradiator.github.io/</link><description>Recent content on Radiator's Thoughts</description><image><title>Radiator's Thoughts</title><url>https://pkradiator.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url><link>https://pkradiator.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link></image><generator>Hugo -- 0.147.0</generator><language>en-us</language><atom:link href="https://pkradiator.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>This is my first Post</title><link>https://pkradiator.github.io/posts/my-first-post/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkradiator.github.io/posts/my-first-post/</guid><description>&lt;h1 id="hello-world">Hello, World&lt;/h1>
 &lt;p>This is my corner of the internet&lt;/p>
 &lt;p>I will share here a few things including but not limited to&lt;/p>
 &lt;ol>
@@ -8,6 +8,7 @@
 &lt;li>Mathematics&lt;/li>
 &lt;li>Computer Science&lt;/li>
 &lt;li>Physics&lt;/li>
+&lt;li>Electronics&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ol></description></item></channel></rss>
