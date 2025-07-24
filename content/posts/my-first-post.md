@@ -1,5 +1,5 @@
 ---
-title: "This is my first Post"
+title: "First Post"
 build:
   render: true
   list: true
