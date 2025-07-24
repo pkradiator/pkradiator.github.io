@@ -73,12 +73,10 @@ params:
     Content: Welcome to my blog
 
   socialIcons:
-    - name: twitter
-      url: "https://twitter.com/"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/pkradiator/"
     - name: linkedin
-      url: "https://linkedin.com/in/"
+      url: "https://www.linkedin.com/in/priyanshu-kalal/"
 
   cover:
     hidden: true # hide everywhere but not in structured data
