@@ -1,28 +1,10 @@
-<div class="terminal-prompt">
-  <code>[~]$ whoami <span class="cursor"></span></code>
+<div class="terminal">
+  <div class="terminal-chrome">
+    <span class="t-btn" style="background:#FF5F56"></span>
+    <span class="t-btn" style="background:#FFBD2E"></span>
+    <span class="t-btn" style="background:#27C93F"></span>
+  </div>
+  <div class="terminal-body">
+    <code>[~]$ whoami<span class="t-cursor"></span></code>
+  </div>
 </div>
-
-<style>
-  .terminal-prompt code {
-    color: #f8f8f8;
-    font-family: monospace;
-    background: transparent;
-    font-size: 1em;
-  }
-
-  .cursor {
-    display: inline-block;
-    width: 0.3em;
-    height: 0.75em;
-    margin-left: 2px;
-    background-color: #f8f8f8;
-    vertical-align: middle;
-    animation: blink 1s step-start infinite;
-  }
-
-  @keyframes blink {
-    50% {
-      opacity: 0;
-    }
-  }
-</style>

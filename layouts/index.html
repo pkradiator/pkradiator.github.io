@@ -1,0 +1,31 @@
+{{ define "main" }}
+<div class="terminal">
+  <div class="terminal-chrome">
+    <span class="t-btn" style="background:#FF5F56"></span>
+    <span class="t-btn" style="background:#FFBD2E"></span>
+    <span class="t-btn" style="background:#27C93F"></span>
+  </div>
+  <div class="terminal-body">
+    <code>[~]$ whoami<span class="t-cursor"></span></code>
+  </div>
+</div>
+
+<p class="home-desc">{{ .Site.Params.description }}</p>
+
+{{ $posts := where .Site.RegularPages "Section" "posts" }}
+{{ if $posts }}
+<p class="section-label">Writing</p>
+<ul class="post-list">
+  {{ range first 20 $posts }}
+  <li class="post-entry">
+    {{ if not .Date.IsZero }}
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2006" }}</time>
+    {{ else }}
+    <span style="min-width:5.5rem;display:inline-block"></span>
+    {{ end }}
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+  </li>
+  {{ end }}
+</ul>
+{{ end }}
+{{ end }}
