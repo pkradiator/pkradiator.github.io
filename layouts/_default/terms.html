@@ -1,11 +1,19 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
-<ul class="term-list">
-  {{ range .Data.Terms.ByCount }}
-  <li class="term-entry">
-    <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
-    <span class="term-count">{{ .Count }}</span>
+{{ range .Pages }}
+<h2 class="archive-year">
+  <a href="{{ .Permalink }}" style="color:inherit;text-decoration:none;">{{ .Title }}</a>
+  <span class="term-count" style="font-size:0.75em;margin-left:0.5rem;">{{ len .Pages }}</span>
+</h2>
+<ul class="post-list">
+  {{ range .Pages }}
+  <li class="post-entry">
+    {{ if not .Date.IsZero }}
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2006" }}</time>
+    {{ end }}
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
   </li>
   {{ end }}
 </ul>
+{{ end }}
 {{ end }}
